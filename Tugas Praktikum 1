@@ -6,7 +6,7 @@ class Calculator
 	{
 		Console.WriteLine("Pilih menu Calculator:\n1. Penambahan\n2. Pengurangan\n3. Perkalian\n4. Pembagian");
 		Console.Write("Input nomor menu [1..4]: ");
-    int c = int.Parse(Console.ReadLine());    
+    		int c = int.Parse(Console.ReadLine());    
 
 		if (c == 1)
 		{
